@@ -1,0 +1,57 @@
+body {
+  background-color: #a2ce3c;
+  background-image: url("images/road.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  overflow: hidden;
+
+  position: relative;
+}
+#car {
+  position: absolute;
+  bottom: 120px;
+  left: 1%;
+}
+#car img {
+  width: 250px;
+  height: auto;
+  transition: left 0.3s linear;
+}
+/* Traffic Signal */
+#signal {
+  position: absolute;
+  left: 70%;
+  bottom: 200px;
+  width: 50px;
+  height: 150px;
+  background: #333;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #111;
+  opacity: 0.3;
+}
+.active {
+  opacity: 1;
+}
+#red.active {
+  background: red;
+}
+#yellow.active {
+  background: yellow;
+}
+#green.active {
+  background: green;
+}
