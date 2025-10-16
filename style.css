@@ -23,7 +23,7 @@ body {
 /* Traffic Signal */
 #signal {
   position: absolute;
-  left: 70%;
+  left: 90%;
   bottom: 200px;
   width: 50px;
   height: 150px;
