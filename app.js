@@ -16,16 +16,19 @@ function changeLight() {
   if (currentLight === "red") {
     currentLight = "green";
     green.classList.add("active");
+    // console.log(currentLight);
   } else if (currentLight === "green") {
     currentLight = "yellow";
     yellow.classList.add("active");
+    // console.log(currentLight);
   } else {
     currentLight = "red";
     red.classList.add("active");
+    // console.log(currentLight);
   }
 }
 
-setInterval(changeLight, 2000);
+setInterval(changeLight, 3000);
 changeLight();
 
 //Move Car
